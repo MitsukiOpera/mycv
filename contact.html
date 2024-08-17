@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Le Quy Hoang Tung</title>
+    <style>
+        /* General Styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .content h2 {
+            font-size: 28px;
+            color: #007acc;
+            margin-bottom: 20px;
+            text-align: center;
+            border-bottom: 2px solid #007acc;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .content p {
+            font-size: 16px;
+            margin-bottom: 30px;
+            text-align: center;
+            color: #555;
+        }
+
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form label {
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            font-size: 16px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 100%;
+            box-sizing: border-box;
+            transition: border-color 0.3s ease;
+        }
+
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: #007acc;
+            outline: none;
+        }
+
+        .contact-form textarea {
+            height: 150px;
+            resize: none;
+        }
+
+        .contact-form button {
+            background-color: #007acc;
+            color: #ffffff;
+            border: none;
+            padding: 15px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-form button:hover {
+            background-color: #005fa3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="content">
+                <h2>Contact</h2>
+                <p>If you'd like to get in touch, feel free to reach out via the form below:</p>
+                <form action="#" method="post" class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+

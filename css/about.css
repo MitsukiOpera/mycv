@@ -1,0 +1,25 @@
+/* Skill bar animations */
+.skill-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    margin: 10px 0;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+
+/* Colors for different skill levels */
+.tech-skill {
+    background-color: #007bff;
+}
+
+.soft-skill {
+    background-color: #28a745;
+}
+
+
